@@ -7,5 +7,5 @@ from app import app
 def index():
     user = {'nickname': "Евгений"}
     posts = [{"author": {"nick": "Юлька"},
-              "body": "Привет, какашка"}]
+              "body": "Привет, какашка-милашка"}]
     return render_template('index.html', posts=posts)
